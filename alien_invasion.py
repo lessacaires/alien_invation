@@ -9,7 +9,7 @@ from settings import Settings
 from ship import Ship
 
 from pygame.sprite import Group
-
+from alien import Alien
 
 #Gerencia os eventos do game
 import game_functions as gf
@@ -28,6 +28,10 @@ def run_game():
 		
 		#Cria um grupo no qual serão armazenados os projeteis 
 		bullets = Group()
+		aliens = Group()
+				
+		#Cria uma frota de aienígenas
+		gf.create_fleet(ai_settings, screen, ship, aliens)
 		
 		#Inicia o laço principal do jogo
 		while True:
@@ -39,9 +43,8 @@ def run_game():
 			gf.update_bullets(bullets)
 			
 			#Redesenha a tela a cada passagem pelo laço
-			gf.update_screen(ai_settings, screen, ship, bullets)
+			gf.update_screen(ai_settings, screen, ship, aliens, bullets)
 						
 			#Deixa a tela mais recente visivel
-			pygame.display.flip()
-			
+			pygame.display.flip()			
 run_game()
