@@ -5,7 +5,10 @@ class  GameStats():
 		"""Inicializa os dados estatísticos."""
 		self.ai_settings = ai_settings
 		self.reset_stats()
+		#Inicia a invasão alienígena em um estado ativo
+		self.game_active = False
 		
 	def reset_stats(self):
 		"""inicializa os dados estatisticos que podem mudar durante o jogo."""
 		self.ships_left = self.ai_settings.ship_limit
+		self.score = 0
