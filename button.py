@@ -8,7 +8,7 @@ class Button():
 		self.screen = screen
 		self.screen_rect = screen.get_rect()
 		
-		#Define as dimensões e as propriedade do botão
+		#Define as dimensões e as propriedades do botão
 		self.width, self.height = 200, 50
 		self.button_color = (0,255,0)
 		self.text_color = (255,255,255)

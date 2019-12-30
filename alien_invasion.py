@@ -1,25 +1,13 @@
 import sys
 
 import pygame
-
-#Importa os metodos da classe Settings
 from settings import Settings
-
-#Importa os métodos da classe ship
 from ship import Ship
-
 from pygame.sprite import Group
 from alien import Alien
-
-#Gerencia os eventos do game
 import game_functions as gf
-
-#Gerencia as estatisticas do game
 from game_stats import GameStats
-
-#Gerencia a classe button
 from button import Button
-
 from scoreboard import ScoreBoard
 
 def run_game():
@@ -44,7 +32,7 @@ def run_game():
 		#Cria uma frota de aienígenas
 		gf.create_fleet(ai_settings, screen, ship, aliens)
 		
-		#Cria uma instancia para armazenar estatisticos do jogo  e cria painel de  pontuação
+		#Cria instancia para armazenar estatisticas do jogo  e cria painel de  pontuação
 		stats = GameStats(ai_settings)
 		sb = ScoreBoard(ai_settings, screen, stats)
 		
@@ -59,9 +47,8 @@ def run_game():
 			
 				gf.update_bullets(ai_settings, screen, stats, sb, ship, aliens, bullets)
 				
-				gf.update_aliens(ai_settings, stats, screen, ship, aliens, bullets)
+				gf.update_aliens(ai_settings, screen, stats, sb, ship, aliens, bullets)
 				
-				#Redesenha a tela a cada passagem pelo laço
 				gf.update_screen(ai_settings, screen, stats, sb, ship, aliens, bullets, play_button)
 						
 run_game()
