@@ -68,6 +68,12 @@ def start_game(ai_settings, screen, stats, sb, ship, aliens, bullets):
     # Cria uma nova frota e centraliza a espaçonave
     create_fleet(ai_settings, screen, ship, aliens)
     ship.center_ship()
+    
+    #Reinicia as imagens do paine de pontuação
+    sb.prep_score()
+    sb.prep_high_score()
+    sb.prep_level()
+    sb.prep_ships()
 
 def update_screen(ai_settings, screen, stats, sb, ship, aliens, bullets,
                   play_button):

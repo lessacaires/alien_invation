@@ -28,10 +28,9 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=1527;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Calien_invasion.py;0;4
-FILE_NAME_1=6694;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Cgame_functions.py;0;4
-FILE_NAME_2=989;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Csettings.py;0;4
-FILE_NAME_3=2256;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Cship.py;0;4
-FILE_NAME_4=530;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Cbullet.py;0;4
-FILE_NAME_5=469;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Cgame_stats.py;0;4
-FILE_NAME_6=950;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Cscoreboard.py;0;4
+FILE_NAME_0=60;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Calien_invasion.py;0;4
+FILE_NAME_1=294;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Csettings.py;0;4
+FILE_NAME_2=9518;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Cgame_functions.py;0;4
+FILE_NAME_3=421;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Cgame_stats.py;0;4
+FILE_NAME_4=2892;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Cscoreboard.py;0;4
+FILE_NAME_5=99;Python;0;EUTF-8;1;1;0;D%3A%5Cbackup%5Calien_invasion%5Cship.py;0;4
